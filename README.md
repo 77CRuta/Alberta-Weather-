@@ -250,4 +250,101 @@ A 2×3 grid of bar charts comparing January and February 2026 to the baseline ac
 
 A 2×2 grid of day-by-day line charts covering **daily snowfall** (top row) and **snow on ground** (bottom row) for January and February 2026, each compared to the baseline daily average. The January snowfall panel shows a spike on January 1 (7.2 cm at Stony Plain) that contributes to the elevated snowpack visible throughout the rest of the month in the snow-on-ground panel — the pack builds early and stays deep. The February snowfall panel is relatively quiet for the first two weeks but ends with a prominent spike on **February 16 (12.0 cm at Stony Plain)**, the largest single-day snowfall event in the 2026 dataset. The snow-on-ground panels reinforce that despite the exceptional warmth in early February causing some surface melt, the pack never dropped below the baseline — and the February 16 storm pushed it back up sharply by the last day of available data.
 
+---
+
+## 📊 Data Analysis
+
+The charts in this section take a longer view of the full dataset — 26 years of daily records averaged across all four full-period stations. Three Year × Month heatmaps give a compact visual of how temperature, precipitation, and snowpack behave across the entire calendar and across every year simultaneously. Five trend and extreme-day charts then isolate specific signals: the direction of long-term warming, the frequency of extreme cold and heat, the rhythm of freeze-thaw cycling, and where each individual year sits relative to the 25-year mean.
+
+---
+
+### 🗺️ Climate Heatmaps
+
+---
+
+#### Mean Temperature by Year and Month
+
+![Mean Temperature Heatmap](Data%20Analysis/plots/fig1_heatmap_mean_temp.png)
+
+A Year × Month grid in which each cell is coloured by the **average mean temperature** for that month and year, using a red-blue diverging scale centred on zero. Red cells are above freezing; blue cells are below. The seasonal structure is immediately visible as a repeating horizontal band: deep blue across the winter columns (December through February), a gradient through the shoulder months, and warm red across June through August. Reading vertically down any individual month reveals year-to-year variability — some Januaries are a lighter blue than others, and some Julys are a deeper red.
+
+Two events stand out clearly when scanning the grid. The **June–July 2021 cells** are among the most intensely red in the entire chart, marking the Western Canadian Heat Dome that pushed Edmonton to its all-time maximum of +38.5 °C. In contrast, **January 2024** appears as one of the darkest blue cells in the January column, reflecting the Arctic outbreak on January 12 that produced the dataset's all-time coldest daily mean of −40.2 °C. The **February 2026 row** shows a notably lighter blue than any other February in the chart, consistent with the +8.61 °C warm anomaly documented in the 2026 comparison section above.
+
+Reading the chart from top to bottom — year by year — there is a subtle but discernible shift toward lighter blues in winter and deeper reds in summer in more recent rows, consistent with a long-term warming signal that the regression chart below quantifies more precisely.
+
+---
+
+#### Monthly Total Precipitation by Year
+
+![Precipitation Heatmap](Data%20Analysis/plots/fig2_heatmap_precipitation.png)
+
+A Year × Month grid coloured by **monthly total precipitation** in millimetres, on a yellow-to-dark-blue scale where deeper blue indicates higher precipitation. Months with no recorded precipitation appear near-white. The dominant pattern is a summer concentration: June, July, and August consistently show the darkest shading, reflecting Edmonton's continental precipitation regime where convective rainfall is the main source of moisture and is largely confined to the warm season. Winter months are pale throughout — most precipitation that does fall in winter arrives as snow, and the liquid-equivalent accumulation per month is much lower.
+
+The chart is useful for spotting anomalously wet or dry years in specific seasons. Notably, **June and July cells vary considerably in depth year to year**, reflecting the high variability of convective summer rainfall. A few individual cells stand out as particularly dark, corresponding to years with concentrated multi-day rain events. The **summer of 2021** shows elevated precipitation alongside its extreme heat, consistent with the atmospheric instability that followed the heat dome event. The partial **2026 row** reflects only January and February and will fill in as the year progresses.
+
+---
+
+#### Average Snow on Ground by Year and Month
+
+![Snow on Ground Heatmap](Data%20Analysis/plots/fig3_heatmap_snow_on_ground.png)
+
+A Year × Month grid coloured by the **average depth of snow on the ground** in centimetres, on a white-to-dark-blue scale. Summer months (June through September) are uniformly white — no snowpack. The winter arc (November through April) fills in with progressively darker shading as the pack builds and fades. The snowpack typically peaks in **January and February**, where the darkest cells cluster, before thinning through March and melting out in April and May.
+
+Year-to-year variation is striking in this chart. Some winters have a consistently deep and dark winter arc; others are noticeably lighter, indicating thinner or more transient snowpacks. **January 2026** stands out as one of the darkest cells in the January column — its average of 31.07 cm across the four stations was nearly double the baseline of 15.74 cm (+97.5%). **2011** also shows a notably deep snowpack, consistent with the all-time recorded snowpack depth of 70.0 cm at Stony Plain on January 18 of that year. Conversely, several years show very pale January and February cells, indicating winters where snowfall was light or Chinook events melted the pack early.
+
+The heatmap also captures the **lagging nature of snowpack relative to snowfall**: heavy December snowfall events appear as a dark December cell that carries over into a dark January and February, exactly as seen in the 2025–2026 transition where December 2025's record snowfall produced the anomalous January 2026 pack.
+
+---
+
+### 📈 Long-Term Trends & Extremes
+
+---
+
+#### Annual Mean Temperature and Long-Term Trend
+
+![Annual Temperature Trend](Data%20Analysis/plots/fig4_annual_temp_trend.png)
+
+A bar chart showing the **annual mean temperature** for each year from 2000 to 2026, with bars coloured warm red when the year's mean exceeded the dataset's long-run average and cold blue when it fell below. A gold OLS regression line — fitted to the 2000–2024 baseline period — is overlaid to show the direction and magnitude of the long-term temperature trend. The slope, r², and p-value are annotated in the legend.
+
+The chart reveals meaningful year-to-year variability layered on top of a gradual upward trend. **2021** is one of the tallest warm bars, driven by the heat dome in June and July lifting the annual mean well above average. **2024** sits on the cooler side of the distribution, pulled down by the January 12 Arctic outbreak — a reminder that single extreme events can meaningfully shift an annual average. **2025**, at +4.61 °C, appears as a clearly above-average bar, but is not the highest in the record — illustrating that 2025's significance lies in its within-year volatility rather than its annual total. The regression line's positive slope indicates a warming trend over the 25-year window, though the wide scatter of individual years around the line reflects how high Edmonton's natural year-to-year variability is relative to the underlying trend signal.
+
+---
+
+#### Extreme Cold Days per Year
+
+![Extreme Cold Days](Data%20Analysis/plots/fig5_extreme_cold_days.png)
+
+A bar chart counting the number of days per year where the **daily mean temperature fell below −20 °C**, with a gold dashed reference line marking the 25-year average count. This threshold represents genuine deep-winter cold — temperatures at this level cause significant stress on infrastructure, vehicles, and outdoor workers, and are broadly referred to as "extreme cold" in public health contexts.
+
+The count fluctuates substantially from year to year. Several years cluster near or below the long-run average, reflecting winters dominated by mild or Chinook-influenced patterns. Others spike considerably higher — most notably years associated with documented Arctic air mass intrusions over the Prairies. **2024** stands out with a high count driven largely by the January 12 outbreak, which was so severe that multiple stations simultaneously recorded daily means below −40 °C. **2009** and **2019** are also elevated years, consistent with the EDA findings that these were years of significant cold extremes. The overall pattern does not show a clean declining trend — extreme cold days remain a recurring feature of Edmonton's winters even in a warming climate, appearing in discrete outbreak episodes rather than as a steady background condition.
+
+---
+
+#### Extreme Hot Days per Year
+
+![Extreme Hot Days](Data%20Analysis/plots/fig6_extreme_hot_days.png)
+
+A bar chart counting the number of days per year where the **daily mean temperature exceeded +25 °C**, with a gold dashed reference line marking the 25-year average. Days in this range represent the warmest tail of Edmonton's summer distribution — uncomfortably hot by local standards and associated with elevated wildfire risk and heat-health advisories.
+
+Hot extreme days are far less frequent than cold extreme days in most years, and in many years the count is very low or near zero. The dominant feature of this chart is the **2021 bar**, which towers above every other year by a wide margin — the direct signature of the Western Canadian Heat Dome, which drove Edmonton's daily means above +25 °C for an extended stretch in late June and early July. No other year in the 26-year record comes close to matching 2021's hot extreme count, making it visually obvious as an outlier rather than part of a gradual upward progression. While there is some suggestion that hot extreme days have become slightly more common in more recent years relative to the early 2000s, the dominant story in this chart is the exceptionality of 2021 — an event that climate scientists have described as essentially impossible without the background warming caused by human greenhouse gas emissions.
+
+---
+
+#### Freeze-Thaw Cycles per Year
+
+![Freeze-Thaw Cycles](Data%20Analysis/plots/fig7_freeze_thaw_cycles.png)
+
+A bar chart counting the number of days per year where the **daily minimum temperature fell below 0 °C and the daily maximum temperature rose above 0 °C on the same calendar day** — the definition of a freeze-thaw cycle. These events are significant beyond weather observation: repeated freeze-thaw cycles are one of the primary drivers of road surface damage, concrete cracking, water main breaks, and permafrost degradation. They are most common in the **shoulder seasons** — particularly October and April — when temperatures oscillate around the freezing point rather than sitting reliably above or below it.
+
+The annual count is relatively stable across the dataset compared to the extreme-day charts, typically ranging within a band that reflects the structural regularity of Edmonton's shoulder seasons. Years where winters were mild and prolonged tend to accumulate more freeze-thaw days, as temperatures hover near zero rather than plunging deep into the cold. The **2025 pattern** is worth noting in this context: its warm shoulder seasons (March through November were broadly above baseline) would tend to increase freeze-thaw day counts in spring and autumn, while the deep cold of February and December would suppress them in those months. The gold reference line allows quick identification of which years ran above or below the long-run cycle frequency.
+
+---
+
+#### Annual Temperature Anomaly vs 2000–2024 Baseline
+
+![Annual Temperature Anomaly](Data%20Analysis/plots/fig8_annual_temp_anomaly.png)
+
+A bar chart showing the **deviation of each year's annual mean temperature from the 2000–2024 baseline mean of +3.85 °C**. Bars extending upward (red) indicate years warmer than the long-run average; bars extending downward (blue) indicate cooler years. The two most extreme years — the warmest and coldest anomalies in the record — are annotated with their year label and delta value. A horizontal zero line marks the baseline.
+
+This chart strips away the absolute temperature values and focuses purely on departure from the long-run norm, making it the clearest single view of which years were unusual and by how much. The distribution of bars is not symmetric: there are more positive (warm) anomalies than negative ones in the recent portion of the record, and the largest positive anomalies tend to be more recent than the largest negative ones — a visual pattern consistent with a warming climate. **2021** registers as a strongly positive anomaly year. **2025**, at +0.76 °C above baseline, appears as a moderate positive bar — meaningful but not the record. The partial **2026** bar, representing only January and February, already shows a positive anomaly driven by the exceptional warmth of early February, though it will shift as the full year accumulates. The annotated extremes anchor the viewer's interpretation of the scale — the range from coldest to warmest annual anomaly in the 26-year record spans roughly 3–4 °C, which is a substantial spread for a dataset of this length.
 
