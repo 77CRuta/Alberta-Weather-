@@ -1,0 +1,49 @@
+Period,Station,Metric,Baseline,2026,Delta
+January,EDMONTON BLATCHFORD,Mean Temperature (C),-9.07,-7.34,1.73
+January,EDMONTON BLATCHFORD,Maximum Temperature (C),-4.56,-2.43,2.13
+January,EDMONTON BLATCHFORD,Minimum Temperature (C),-13.56,-12.26,1.3
+January,EDMONTON BLATCHFORD,Total Snow (cm),0.67,,
+January,EDMONTON BLATCHFORD,Total Precipitation (mm),0.51,0.42,-0.1
+January,EDMONTON BLATCHFORD,Snow on Ground (cm),14.7,39.97,25.27
+January,EDMONTON INTERNATIONAL CS,Mean Temperature (C),-11.14,-9.18,1.96
+January,EDMONTON INTERNATIONAL CS,Maximum Temperature (C),-5.27,-3.41,1.86
+January,EDMONTON INTERNATIONAL CS,Minimum Temperature (C),-16.98,-14.95,2.02
+January,EDMONTON INTERNATIONAL CS,Total Snow (cm),0.68,,
+January,EDMONTON INTERNATIONAL CS,Total Precipitation (mm),0.44,0.14,-0.29
+January,EDMONTON INTERNATIONAL CS,Snow on Ground (cm),13.39,27.3,13.91
+January,EDMONTON STONY PLAIN,Mean Temperature (C),-8.57,-5.77,2.8
+January,EDMONTON STONY PLAIN,Maximum Temperature (C),-4.17,-1.82,2.34
+January,EDMONTON STONY PLAIN,Minimum Temperature (C),-12.93,-9.71,3.23
+January,EDMONTON STONY PLAIN,Total Snow (cm),0.74,0.56,-0.17
+January,EDMONTON STONY PLAIN,Total Precipitation (mm),0.6,0.46,-0.14
+January,EDMONTON STONY PLAIN,Snow on Ground (cm),15.07,23.35,8.28
+January,EDMONTON STONY PLAIN CS,Mean Temperature (C),-8.71,-7.09,1.62
+January,EDMONTON STONY PLAIN CS,Maximum Temperature (C),-4.3,-2.55,1.75
+January,EDMONTON STONY PLAIN CS,Minimum Temperature (C),-13.12,-11.64,1.48
+January,EDMONTON STONY PLAIN CS,Total Snow (cm),0.59,,
+January,EDMONTON STONY PLAIN CS,Total Precipitation (mm),0.52,0.39,-0.13
+January,EDMONTON STONY PLAIN CS,Snow on Ground (cm),19.32,30.06,10.74
+Feb 1-17,EDMONTON BLATCHFORD,Mean Temperature (C),-8.7,-0.03,8.67
+Feb 1-17,EDMONTON BLATCHFORD,Maximum Temperature (C),-4.05,4.71,8.75
+Feb 1-17,EDMONTON BLATCHFORD,Minimum Temperature (C),-13.33,-4.75,8.58
+Feb 1-17,EDMONTON BLATCHFORD,Total Snow (cm),0.44,,
+Feb 1-17,EDMONTON BLATCHFORD,Total Precipitation (mm),0.49,1.0,0.51
+Feb 1-17,EDMONTON BLATCHFORD,Snow on Ground (cm),19.56,33.35,13.79
+Feb 1-17,EDMONTON INTERNATIONAL CS,Mean Temperature (C),-10.99,-2.36,8.63
+Feb 1-17,EDMONTON INTERNATIONAL CS,Maximum Temperature (C),-4.84,2.95,7.79
+Feb 1-17,EDMONTON INTERNATIONAL CS,Minimum Temperature (C),-17.11,-7.69,9.42
+Feb 1-17,EDMONTON INTERNATIONAL CS,Total Snow (cm),0.4,,
+Feb 1-17,EDMONTON INTERNATIONAL CS,Total Precipitation (mm),0.41,0.49,0.08
+Feb 1-17,EDMONTON INTERNATIONAL CS,Snow on Ground (cm),13.44,22.31,8.88
+Feb 1-17,EDMONTON STONY PLAIN,Mean Temperature (C),-8.2,1.57,9.77
+Feb 1-17,EDMONTON STONY PLAIN,Maximum Temperature (C),-3.68,5.56,9.24
+Feb 1-17,EDMONTON STONY PLAIN,Minimum Temperature (C),-12.7,-2.44,10.25
+Feb 1-17,EDMONTON STONY PLAIN,Total Snow (cm),0.58,1.33,0.75
+Feb 1-17,EDMONTON STONY PLAIN,Total Precipitation (mm),0.45,1.11,0.66
+Feb 1-17,EDMONTON STONY PLAIN,Snow on Ground (cm),14.95,11.11,-3.84
+Feb 1-17,EDMONTON STONY PLAIN CS,Mean Temperature (C),-8.34,-0.16,8.18
+Feb 1-17,EDMONTON STONY PLAIN CS,Maximum Temperature (C),-3.76,3.86,7.62
+Feb 1-17,EDMONTON STONY PLAIN CS,Minimum Temperature (C),-12.91,-4.21,8.71
+Feb 1-17,EDMONTON STONY PLAIN CS,Total Snow (cm),0.35,,
+Feb 1-17,EDMONTON STONY PLAIN CS,Total Precipitation (mm),0.43,0.86,0.43
+Feb 1-17,EDMONTON STONY PLAIN CS,Snow on Ground (cm),20.59,19.29,-1.29
